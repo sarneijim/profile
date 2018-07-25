@@ -17,9 +17,7 @@ h2{
   font-size: 14px;
   font-size: 14px;
 }
-a{
-  color: #F0EFF4;
-}
+
 a:hover{
   color: #DA4167;
 }
@@ -66,4 +64,12 @@ a:hover{
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
